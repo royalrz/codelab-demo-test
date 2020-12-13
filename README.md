@@ -4,4 +4,4 @@
 2. Use [Object Mapper](https://www.npmjs.com/package/object-mapper) to make `src/tasks/upwork.spec.ts` pass
 3. `yarn test` should pass
 
-Don't fork or push changes remotely, instead please send me the `mapper` object via Upwork chat so other potential hires don't see the solution
+Don't fork or push changes remotely, instead please send me the spec file over Upwork chat so other developers don't see it. 
