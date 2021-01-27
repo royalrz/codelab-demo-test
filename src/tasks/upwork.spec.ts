@@ -25,17 +25,28 @@ it("maps from one shape to another", () => {
   };
 
   const expected = {
-    devs: [
+    company: {
+      devs: [
+        {
+          firstname: "Webber",
+          lastname: "Wang",
+        },
+        {
+          firstname: "Vien",
+          lastname: "Nguyen",
+        },
+      ],      
+    },
+    info: [
       {
-        firstname: "Webber",
-        lastname: "Wang",
+        key: "user.address.number",
+        value: "1200",
       },
       {
-        firstname: "Vien",
-        lastname: "Nguyen",
+        key: "user.address.street",
+        value: "Park ave.",
       },
     ],
-    user: { address: { number: "1200", street: "Park ave." } },
   };
 
   expect(original).toStrictEqual(expected);
